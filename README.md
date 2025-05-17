@@ -1,12 +1,12 @@
 🔄 Data Automation (ELT) Project
 
-Hi, I’m Noshik 👋 — I built this end-to-end ELT pipeline to automate data workflows using PostgreSQL, Apache Airflow, dbt, and Docker. It simulates a real-world data engineering setup, and is fully containerized for portability.
+Hi, I’m Noshik  — I built this end-to-end ELT pipeline to automate data workflows using PostgreSQL, Apache Airflow, dbt, and Docker. It simulates a real-world data engineering setup, and is fully containerized for portability.
 
 🚀 What This Project Does
 
 1. ELT Script
 A custom Python script extracts data from one PostgreSQL database, transforms it, and loads it into another PostgreSQL instance.
-📎 View the script
+
 
 2. Apache Airflow DAG
 Airflow handles orchestration by running two main tasks:
@@ -38,11 +38,12 @@ init-airflow: Initializes Airflow on startup
 The docker-compose.yml file spins up everything—databases, Airflow, networks—so you're ready to go in one command.
 
 docker-compose up --build
-🧠 Why This Project Matters
+Why This Project Matters
 
 ✅ Shows experience in real-world orchestration and automation
 ✅ Demonstrates comfort with containers and pipeline design
 ✅ Highlights ability to document and modularize work
+
 🛠 Technologies Used
 
 Python
@@ -58,6 +59,7 @@ Docker / Docker Compose
 ├── dags/                     # Airflow DAGs
 ├── docker-compose.yml        # Multi-container setup
 └── README.md                 # Project documentation (this file!)
+
 🌐 Credits
 
 Inspired by the freeCodeCamp Data Engineering course.
